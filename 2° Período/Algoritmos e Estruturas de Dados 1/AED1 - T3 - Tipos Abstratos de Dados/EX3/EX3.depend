@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1706999678 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t3\ex3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrizes.h"
+
+1707000283 c:\users\e_mil\onedrive\documentos\aed1\aed1 - t3\ex3\matrizes.h
+
+1707000283 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t3\ex3\matrizes1.c
+	<stdio.h>
+	<stdlib.h>
+	"matrizes.h"
+

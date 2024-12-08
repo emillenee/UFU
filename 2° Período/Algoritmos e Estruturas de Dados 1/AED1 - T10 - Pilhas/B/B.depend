@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1712838345 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t10\b\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pilhas.h"
+
+1712838409 c:\users\e_mil\onedrive\documentos\aed1\aed1 - t10\b\pilhas.h
+
+1712837503 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t10\b\pilhas1.c
+	<stdio.h>
+	<stdlib.h>
+	"Pilhas.h"
+

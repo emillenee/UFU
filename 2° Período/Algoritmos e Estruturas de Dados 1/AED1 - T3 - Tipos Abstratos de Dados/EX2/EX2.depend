@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1706977246 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t3\ex2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conjuntos.h"
+
+1706924016 c:\users\e_mil\onedrive\documentos\aed1\aed1 - t3\ex2\conjuntos.h
+
+1706984331 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t3\ex2\conjuntos1.c
+	<stdio.h>
+	<stdlib.h>
+	"conjuntos.h"
+

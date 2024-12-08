@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1712364290 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t9\d\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Filas.h"
+
+1712364338 c:\users\e_mil\onedrive\documentos\aed1\aed1 - t9\d\filas.h
+
+1712364329 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t9\d\filas1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Filas.h"
+

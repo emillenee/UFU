@@ -1,0 +1,25 @@
+#ifndef PILHAS_H_INCLUDED
+#define PILHAS_H_INCLUDED
+
+#define MAX 100
+typedef struct numero{
+    int num;
+}Numero;
+
+typedef struct pilha Pilha;
+
+Pilha *criar();
+void limpar(Pilha *p);
+
+int push(Pilha *p, Numero it);
+int pop(Pilha *p, Numero *it);
+int consultar(Pilha *p, Numero *it);
+int tamanho(Pilha *p);
+int pilhaVazia(Pilha *p);
+int pilhaCheia(Pilha *p);
+
+void mostrar(Pilha *p);
+
+int iguais(Pilha *p1, Pilha *p2);
+
+#endif // PILHAS_H_INCLUDED

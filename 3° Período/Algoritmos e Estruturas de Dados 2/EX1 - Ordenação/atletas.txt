@@ -1,0 +1,12 @@
+Beatriz Souza,BR,2,406.2
+Larissa Pimenta,BR,2,200.0
+Rayssa Leal,BR,1,140.0
+Rebeca Andrade,BR,4,826.0
+Isaquias Queiroz,BR,1,210.0
+Ana Patricia,BR,1,350.0
+Tamara Csipes,HU,3,1350.0
+Caio Bonfim,BR,1,210.0
+Tatiana Weston-Webb,BR,1,210.0
+Simone Biles,US,4,780.0
+Zhang Yufei,CN,6,6200.0
+Augusto Akio,BR,1,140.0

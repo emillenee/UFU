@@ -1,0 +1,20 @@
+{
+  "files": {
+    "arvoreAVL.c": [
+      {
+        "id": "436d67fe-cb5e-49e8-928d-2d98ac19bd69",
+        "line": 5,
+        "version": 91,
+        "index": 125
+      }
+    ],
+    "arvoreBinaria.c": [
+      {
+        "id": "92b4f527-5e00-4b63-a846-7b4d13a67450",
+        "line": 185,
+        "version": 225,
+        "index": 6457
+      }
+    ]
+  }
+}

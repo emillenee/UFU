@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1711214702 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t7\a\listad.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1711220837 c:\users\e_mil\onedrive\documentos\aed1\aed1 - t7\a\lista.h
+
+1711215353 source:c:\users\e_mil\onedrive\documentos\aed1\aed1 - t7\a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
