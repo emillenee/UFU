@@ -1,0 +1,60 @@
+000 LOAD M(021); STOR+ M(005, 20:39)          -- carrega apontador idades // muda a pos do vet idades
+001 ADD M(023); STOR M(021)                   -- incrementa a pos do vet // guarda a nova pos para a prox iteração  
+002 LOAD M(024); SUB M(022)                   -- carrega contador J     // subtrai pelo contador I 
+003 STOR M(027); LOAD M(028)                  -- guarda a diferença    // carrega a constante 0
+004 SUB |M(027)|; JUMP+ M(006, 20:39)         -- 0 - |diferença de i e j| // Se der negativo são diferentes, caso contrario são iguais  
+005 LOAD M(020); ADD M(000)                   -- carrega somatório     // add idade da posição atual
+006 STOR M(020); LOAD M(024)                  -- guarda em somatorio   // carrega J 
+007 SUB M(023); STOR M(024)                   -- decrementa J
+008 JUMP+ M(000, 0:19); LOAD M(022)           -- Se j >= 0, volta p começo // Carrega I
+009 SUB M(023); STOR M(022)                   -- decrementa I
+00A LOAD M(025) STOR+ M(00C, 20:39)           -- Carrega apontador somas // muda a pos do vet somas
+00B ADD M(023); STOR M(025)                   -- incrementa a pos do vet // guarda a pos para a prox iteração
+00C LOAD M(020); STOR M(000)                  -- carrega somatório    // guarda na pos atual do vet somas
+00D SUB M(020); STOR M(020)                   -- Zera somatório 
+00E LOAD M(026); STOR M(024)                  -- Reseta J para 4 
+00F LOAD M(021); SUB M(029)                   -- Reseta o apontador idades para a idade inicial (30)
+010 STOR M(021); LOAD M(022)                  -- Carrega o apontador resetado // Carrega I
+011 JUMP+ M(000, 0:19); JUMP M(011, 0:19)     -- Se I >= 0 volta para o início // FIM 
+
+000 0102113005
+001 0502321021
+002 0102406022
+003 2102701028                                  
+004 0802710006 
+005 0102005000                                      
+006 2102001024
+007 0602321024
+008 0F00001022
+009 0602321022
+00A 010251300C
+00B 0502321025
+00C 0102021000
+00D 0602021020
+00E 0102621024
+00F 0102106029
+010 2102101022
+011 0F0000D011
+
+020 00 00 00 00 00 # Somatório 
+021 00 00 00 00 30 # Apontador idades 
+022 00 00 00 00 04 # Contador de iterações I
+023 00 00 00 00 01 # Constante 1
+024 00 00 00 00 04 # Contador de iterações J
+025 00 00 00 00 50 # Apontador somas 
+026 00 00 00 00 04 # Const 4    max -1
+027 00 00 00 00 00 # Diferença J e I
+028 00 00 00 00 00 # Const 0
+029 00 00 00 00 05 # Const 5    max
+
+030 00 00 00 00 0A 
+031 00 00 00 00 04 
+032 00 00 00 00 01 
+033 00 00 00 00 06 
+034 00 00 00 00 02 
+                                
+050 00 00 00 00 00   #  D
+051 00 00 00 00 00   # 13
+052 00 00 00 00 00   # 16     
+053 00 00 00 00 00   # 11
+054 00 00 00 00 00   # 15
