@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Mar 22 20:30:36 BRT 2025:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instância a816c00e-0195-c031-aea7-00000e984838
+no diretório de banco de dados C:\Derby\MeuBancoDeDados 
+
+java.vendor=Oracle Corporation
+java.runtime.version=22.0.2+9-70
+user.dir=C:\Users\e_mil\Documents\4° Período\Príncipios e Padrões de Projeto\Tarefa 05 - API JDBC\Estoque-CRUD
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
