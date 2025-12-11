@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pizzas Qloucura</title>
+</head>
+<body>
+  <div class="containerPedido">
+    <h1>Fazer Pedido</h1>
+    <form method="post" enctype="application/x-www-form-urlencoded" action="http://localhost:8000/processa_pedido">
+      <p><label>Nome do Cliente:<br><input name="nomeCliente"></label></p>
+      <p><label>Telefone:<br><input type="tel" name="telCliente"></label></p>
+      <p><label>E-mail:<br><input type="email" name="emailCliente"></label></p>
+
+      <fieldset>
+        <legend>Tamanho da Pizza</legend>
+        <label><input type="radio" name="tamanho" value="p"> Pequena</label><br>
+        <label><input type="radio" name="tamanho" value="m"> Média</label><br>
+        <label><input type="radio" name="tamanho" value="g"> Grande</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Ingredientes</legend>
+        <label><input type="checkbox" name="ing" value="tom"> Tomate</label><br>
+        <label><input type="checkbox" name="ing" value="pre"> Presunto</label><br>
+        <label><input type="checkbox" name="ing" value="ceb"> Cebola</label><br>
+        <label><input type="checkbox" name="ing" value="que"> Queijo</label>
+      </fieldset>
+
+      <p><label>Horário de entrega desejado:<br>
+        <input type="time" min="11:00" max="21:00" step="900" name="tempo">
+      </label></p>
+
+      <p><label>Instruções para entrega:<br>
+        <textarea name="obs" rows="4" cols="30"></textarea>
+      </label></p>
+
+      <p><button type="submit" class="btn">Enviar Pedido</button></p>
+    </form>
+  </div>
+</body>
+</html>

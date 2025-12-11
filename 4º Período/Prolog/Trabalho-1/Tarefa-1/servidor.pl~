@@ -1,0 +1,9 @@
+:- use_module(library(http/thread_httpd)).
+:- use_module(library(http/http_dispatch)).
+:- use_module(library(http/html_write)).
+:- use_module(library(http/http_parameters)).
+
+:- http_handler(root(processa_pedido), mensagem, []).
+
+servidor(Porta) :-
+    http_server(http_dispatch, [port(Porta)]).
