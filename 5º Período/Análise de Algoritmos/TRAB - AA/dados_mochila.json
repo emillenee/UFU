@@ -1,0 +1,30 @@
+{
+  "capacidade": 10,
+  "itens": [
+    {
+      "id": 1,
+      "valor": 3,
+      "peso": 2
+    },
+    {
+      "id": 2,
+      "valor": 4,
+      "peso": 3
+    },
+    {
+      "id": 3,
+      "valor": 8,
+      "peso": 4
+    },
+    {
+      "id": 4,
+      "valor": 8,
+      "peso": 5
+    },
+    {
+      "id": 5,
+      "valor": 10,
+      "peso": 9
+    }
+  ]
+}
